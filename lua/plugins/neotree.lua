@@ -11,6 +11,6 @@ return {
 			close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
 			popup_border_style = "rounded",
 		})
-		vim.keymap.set("n", "<leader>e", ":Neotree toggle <CR>")
+		vim.keymap.set("n", "<leader>e", ":Neotree reveal toggle <CR>")
 	end,
 }
